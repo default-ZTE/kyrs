@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
 html {
     font-size: 16px;
 }
+
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -19,7 +21,7 @@ html {
 }
 
 .header {
-    padding-top: 1rem;
+    padding-top: 1.0rem;
 }
 
 .header .container {
@@ -35,7 +37,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 65%;
+    max-width: 73.75rem;
 }
 
 ul {
@@ -58,7 +60,7 @@ a {
     height: 2.75rem;
     background: rgba(26, 62, 62, 1);
     color: rgba(253, 253, 253, 1);
-    font-size: 1rem;
+    font-size: 1.0rem;
     border-radius: 0.25rem;
 }
 
@@ -71,13 +73,13 @@ h1 {
 }
 
 .reservation-section {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     display: grid;
-    height: 161px;
+    height: 10.0625rem;
     background-color: rgba(255, 255, 255, 0.2);
     grid-template-columns: 1fr 1fr 1fr 0.8fr;
     grid-template-rows: 1fr 3fr 1fr 1fr;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 
 }
 
@@ -86,19 +88,19 @@ h1 {
     grid-row: 3/4;
     font-weight: 400;
     line-height: 150%;
-    margin: 12px 12px 0 28px;
+    margin: 0.75rem 0.75rem 0 1.75rem;
     color: rgba(253, 253, 253, 1);
 }
 
 .reservation_btn {
     grid-row: 2/3;
-    margin: 1rem 1rem 0 1rem;
-    height: 52px;
+    margin: 1.0rem 1.0rem 0 1.0rem;
+    height: 3.25rem;
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
-    border: 1px solid rgba(253, 253, 253, 1);
+    border-radius: 0.5rem;
+    border: 0.0625rem solid rgba(253, 253, 253, 1);
     color: rgba(253, 253, 253, 1);
-    font-size: 1rem;
+    font-size: 1.0rem;
     font-weight: 700;
     line-height: 150%;
     display: flex;
@@ -108,24 +110,24 @@ h1 {
 
 .search-btn {
     background-color: rgba(253, 253, 253, 1);
-    border-radius: 4px;
+    border-radius: 0.25rem;
     border: none;
     color: #1A3E3E;
 }
 
 .index-section {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .expedition-details {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .expedition-details .container {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    margin-top: 80px;
-    padding-bottom: 80px;
+    margin-top: 5.0rem;
+    padding-bottom: 5.0rem;
 }
 
 .hike-photos {
@@ -139,25 +141,26 @@ h1 {
 .hike-photos2__img {
     position: absolute;
     z-index: 1;
-    top: 126px;
-    left: 130px;
+    top: 7.875rem;
+    left: 8.125rem;
 }
 
 .about-hike {
-    padding-top: 60px;
+    padding-top: 3.75rem;
 }
 
 .about-hike span {
     color: #F2BE22;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+
     line-height: 20%;
 }
 
 .about-hike h2 {
     color: #18121E;
-    padding-top: 10px;
-    font-size: 2rem;
+    padding-top: 0.625rem;
+    font-size: 2.0rem;
     font-weight: 800;
     line-height: 120%;
 }
@@ -167,17 +170,17 @@ h1 {
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 150%;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 .program-button {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .section-solutions {
     background-color: #F3F5F4;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 5.0rem;
+    padding-bottom: 5.0rem;
 }
 
 .section-solutions .container {
@@ -195,8 +198,8 @@ h1 {
 
 .offer__text h3 {
     color: #18121E;
-    padding-top: 10px;
-    font-size: 2rem;
+    padding-top: 0.625rem;
+    font-size: 2.0rem;
     font-weight: 800;
     line-height: 120%;
 }
@@ -204,7 +207,7 @@ h1 {
 .benefits__item h3 {
     font-size: 1.125rem;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 1.25rem;
     color: #18121E;
 
 }
@@ -212,42 +215,42 @@ h1 {
 .offer__text p {
     color: #18121E;
     font-size: 1.125rem;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 400;
     line-height: 150%;
 
 }
 
 .benefits__item {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 
 }
 
 .benefits__item p {
     margin-top: 0;
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 .offer__image {
-    width: 520px;
-    height: 520px;
+    width: 32.5rem;
+    height: 32.5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    padding-top: 40px;
+    gap: 0.3125rem;
+    padding-top: 2.5rem;
 }
 
 .offer__image--img {
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
 }
 
 .program-button {
-    width: 236px;
-    height: 52px;
+    width: 14.75rem;
+    height: 3.25rem;
 }
 
 .popular-section .container {
@@ -260,26 +263,26 @@ h1 {
     color: #F2BE22;
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .popular-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
 }
 
 .popular-tour-cards {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .popular-destinations {
     color: #18121E;
-    font-size: 2rem;
+    font-size: 2.0rem;
     font-weight: 800;
     line-height: 120%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .popular-tour-card {
@@ -291,20 +294,20 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    gap: 10px;
-    top: 50px;
-    left: 315px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    gap: 0.625rem;
+    top: 3.125rem;
+    left: 19.6875rem;
     background-color: #FDFDFD66;
-    width: 65px;
-    height: 32px;
+    width: 4.0625rem;
+    height: 2.0rem;
     cursor: pointer;
 }
 
 .tour-rating p {
     color: #1A3E3E;
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 700;
     line-height: 1.125rem;
 }
@@ -314,13 +317,13 @@ h1 {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 410px;
-    width: 380px;
-    height: 90px;
-    backdrop-filter: blur(6px);
+    top: 25.625rem;
+    width: 23.75rem;
+    height: 5.625rem;
+    backdrop-filter: blur(0.375rem);
     background-color: #FFFFFF33;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 2.0rem;
+    border-bottom-right-radius: 2.0rem;
 }
 
 .popular-tour-name span {
@@ -333,50 +336,50 @@ h1 {
 .popular-tour-name p {
     color: #FDFDFD;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
 }
 
 .tour-price {
     background-color: #FFFFFF4D;
-    width: 86px;
-    height: 40px;
+    width: 5.375rem;
+    height: 2.5rem;
     font-size: 1.25rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5rem;
     color: #FDFDFD;
-    padding: 8px 16px 8px 16px;
-    border-radius: 4px;
+    padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+    border-radius: 0.25rem;
 }
 
 .rating-btn {
-    width: 244px;
-    margin-top: 40px;
+    width: 15.25rem;
+    margin-top: 2.5rem;
 }
 
 .article-card {
     background-color: #FDFDFD;
-    width: 580px;
-    height: 312px;
+    width: 36.25rem;
+    height: 19.5rem;
     display: flex;
     align-items: center;
-    gap: 24px;
-    padding: 1rem;
+    gap: 1.5rem;
+    padding: 1.0rem;
 }
 
 .article-content {
-    height: 280px;
+    height: 17.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .articles-block {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 24px;
+    gap: 1.5rem;
 
 }
 
@@ -388,13 +391,13 @@ h1 {
 .data {
     color: #F2BE22;
     font-size: 0.875rem;
-    line-height: 20px;
+    line-height: 1.25rem;
     font-weight: 700;
 }
 
 .link {
     font-size: 0.875rem;
-    line-height: 20px;
+    line-height: 1.25rem;
     font-weight: 700;
     color: #18121E;
 }
@@ -402,7 +405,7 @@ h1 {
 
 .blog-section {
     background-color: #F3F5F4;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .blog-section .container {
@@ -416,35 +419,35 @@ h1 {
     color: #F2BE22;
     font-size: 1.5rem;
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 
 }
 
 .blog-title {
     color: #18121E;
-    font-size: 2rem;
+    font-size: 2.0rem;
     font-weight: 800;
     line-height: 120%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .card-tittle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 2.0rem;
     color: #18121E;
 }
 
 .articles-block .article-card:nth-child(4) .article-content .card-description {
-    height: 140px;
-    width: 294px;
+    height: 8.75rem;
+    width: 18.375rem;
 }
 
 
 .card-description {
     font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.25rem;
     color: #18121E;
 }
 
@@ -456,34 +459,34 @@ h1 {
 }
 
 .photo-report {
-    padding-bottom: 300px;
+    padding-bottom: 18.75rem;
 }
 
 .photo-report-label {
     color: #F2BE22;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .photo-report-title {
     color: #18121E;
-    font-size: 2rem;
+    font-size: 2.0rem;
     font-weight: 800;
     line-height: 120%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .photo-gallery {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .pinterest-btn {
-    width: 178px;
-    margin-top: 40px;
+    width: 11.125rem;
+    margin-top: 2.5rem;
 }
 
 .page-footer {
@@ -491,20 +494,20 @@ h1 {
 }
 
 .footer-contacts {
-    width: 480px;
+    width: 30.0rem;
 }
 
 .company-name {
     color: #F3F5F4;
     font-size: 1.25rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .article-paragraph {
     font-size: 0.875rem;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.25rem;
     color: #FFFFFF;
 }
 
@@ -512,7 +515,7 @@ h1 {
     color: #FFFFFF;
     font-size: 0.875rem;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 1.125rem;
 
 }
 
@@ -526,13 +529,13 @@ h1 {
     color: #F3F5F4;
     font-size: 1.25rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .footer-services-item {
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     color: #FDFDFD;
 }
 
@@ -540,38 +543,38 @@ h1 {
     color: #F3F5F4;
     font-size: 1.25rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .footer-important-item {
     font-weight: 400;
     font-size: 0.875rem;
-    line-height: 18px;
+    line-height: 1.125rem;
     color: #FDFDFD;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    padding-top: 250px;
+    padding-top: 15.625rem;
 }
 
 .footer-contacts {
-    height: 263px;
+    height: 16.4375rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .footer-services {
-    height: 234px;
+    height: 14.625rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .footer-important {
-    height: 200px;
+    height: 12.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -579,41 +582,41 @@ h1 {
 
 .icons {
     display: flex;
-    gap: 16px;
+    gap: 1.0rem;
 }
 
 .footer-container {
     background-color: #18121E;
-    height: 66px;
+    height: 4.125rem;
 }
 
 .redactor {
     color: #FFFFFF;
     font-size: 0.875rem;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 1.125rem;
 }
 
 .footer-container .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 66px;
+    height: 4.125rem;
 }
 
 .political {
     color: #FFFFFF;
     font-size: 0.875rem;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 1.125rem;
     text-decoration: underline;
 }
 
 .subscribe-section-container {
-    padding-top: 20px;
+    padding-top: 1.25rem;
     margin: 0 auto;
-    width: 1180px;
-    height: 196px;
+    width: 73.75rem;
+    height: 12.25rem;
     background-color: #FDFDFD;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -621,20 +624,20 @@ h1 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 960px;
-    box-shadow: 0 4px 20px rgba(24, 18, 30, 0.12);
+    top: 60.0rem;
+    box-shadow: 0 0.25rem 1.25rem rgba(24, 18, 30, 0.12);
 }
 
 .subscribe-label {
     grid-column: 1;
     grid-row: 1;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .subscribe-title {
     grid-column: 1;
     grid-row: 2;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .subscribe-form {
@@ -643,27 +646,27 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 1.0rem;
 }
 
 .e-title {
     grid-column: 1;
     grid-row: 1;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .subscribe-email {
     grid-column: 1;
     grid-row: 2;
-    width: 280px;
-    padding: 12px;
+    width: 17.5rem;
+    padding: 0.75rem;
 }
 
 .subscribe-button {
     grid-column: 2;
     grid-row: 2;
-    width: 240px;
-    height: 44px;
+    width: 15.0rem;
+    height: 2.75rem;
 }
 
 .subscribe-form p {
@@ -671,7 +674,7 @@ h1 {
     grid-row: 3;
     font-size: 0.875rem;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 1.125rem;
     text-decoration: underline;
 }
 
@@ -687,13 +690,9 @@ h1 {
     font-size: 1.625rem;
     font-weight: 800;
     line-height: 120%;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .parent-block {
     position: relative;
-}
-
-@media (max-width: 1366px) {
-
 }
