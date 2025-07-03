@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.index-main {
+    background-image: url("../img/fon.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    padding-top: 16px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+ul {
+    list-style-type: none;
+    color: rgba(253, 253, 253, 1);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.consult-button {
+    width: 157px;
+    height: 44px;
+    background: rgba(26, 62, 62, 1);
+    color: rgba(253, 253, 253, 1);
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+h1 {
+    margin-top: 463px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 150%;
+    color: rgba(253, 253, 253, 1);
+}
+
+.reservation-section {
+    margin-top: 60px;
+    display: grid;
+    height: 161px;
+    background-color: rgba(255, 255, 255, 0.2);
+    grid-template-columns: 1fr 1fr 1fr 0.8fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    border-radius: 10px;
+
+}
+
+.reservation-section span {
+    font-size: 14px;
+    grid-row: 3/4;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 12px 12px 0 28px;
+    color: rgba(253, 253, 253, 1);
+}
+
+.reservation_btn {
+    grid-row: 2/3;
+    margin: 16px 16px 0 16px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    border: 1px solid rgba(253, 253, 253, 1);
+    color: rgba(253, 253, 253, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-btn {
+    background-color: rgba(253, 253, 253, 1);
+    border-radius: 4px;
+    border: none;
+    color: #1A3E3E;
+}
+
+.index-section {
+    padding-bottom: 40px;
+}
+
+.expedition-details {
+    margin-bottom: 100px;
+}
+
+.expedition-details .container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hike-photos {
+    position: relative;
+}
+
+.hike-photos1__img {
+    z-index: -5;
+}
+
+.hike-photos2__img {
+    position: absolute;
+    z-index: 1;
+    top: 126px;
+    left: 130px;
+}
+
+.about-hike {
+    padding-top: 60px;
+}
+
+.about-hike span {
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+
+    line-height: 20%;
+}
+
+.about-hike h2 {
+    color: #18121E;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.about-hike p {
+    color: #18121E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 40px;
+}
+
+.program-button {
+    margin-top: 50px;
+}
+
+.section-solutions {
+    background-color: #F3F5F4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-solutions .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.offer__text span {
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20%;
+}
+
+.offer__text h3 {
+    color: #18121E;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.benefits__item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #18121E;
+
+}
+
+.offer__text p {
+    color: #18121E;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.benefits__item {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.benefits__item p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.offer__image {
+    width: 520px;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 40px;
+}
+
+.offer__image--img {
+    width: 250px;
+    height: 250px;
+}
+
+.program-button {
+    width: 236px;
+    height: 52px;
+}
+
+.popular-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-label {
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.popular-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.popular-tour-cards {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.popular-destinations {
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 10px;
+}
+
+.popular-tour-card {
+    position: relative;
+}
+
+.tour-rating {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    gap: 10px;
+    top: 50px;
+    left: 315px;
+    background-color: #FDFDFD66;
+    width: 65px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.tour-rating p {
+    color: #1A3E3E;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.popular-tour-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 410px;
+    width: 380px;
+    height: 90px;
+    backdrop-filter: blur(6px);
+    background-color: #FFFFFF33;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.popular-tour-name span {
+    color: #FDFDFD;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.popular-tour-name p {
+    color: #FDFDFD;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.tour-price {
+    background-color: #FFFFFF4D;
+    width: 86px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FDFDFD;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+}
+
+.rating-btn {
+    width: 244px;
+    margin-top: 40px;
+}
+
+.article-card {
+    background-color: #FDFDFD;
+    width: 580px;
+    height: 312px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+}
+
+.article-content {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.articles-block {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+
+}
+
+.data-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    color: #F2BE22;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #18121E;
+}
+
+
+.blog-section {
+    background-color: #F3F5F4;
+    padding-bottom: 50px;
+}
+
+.blog-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.impressions-label {
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+
+}
+
+.blog-title {
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 10px;
+}
+
+.card-tittle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #18121E;
+}
+
+.articles-block .article-card:nth-child(4) .article-content .card-description {
+    height: 140px;
+    width: 294px;
+}
+
+
+.card-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #18121E;
+}
+
+.photo-report .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-report {
+    padding-bottom: 300px;
+}
+
+.photo-report-label {
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.photo-report-title {
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 10px;
+}
+
+.photo-gallery {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pinterest-btn {
+    width: 178px;
+    margin-top: 40px;
+}
+
+.page-footer {
+    background-color: #1A3E3E;
+}
+
+.footer-contacts {
+    width: 480px;
+}
+
+.company-name {
+    color: #F3F5F4;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.article-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.email-phons {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+
+}
+
+.email {
+    color: #FFFFFF;
+    text-decoration: underline;
+
+}
+
+.footer-services-header {
+    color: #F3F5F4;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-services-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FDFDFD;
+}
+
+.footer-important-title {
+    color: #F3F5F4;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-important-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FDFDFD;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+}
+
+.footer-contacts {
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-services {
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-important {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-container {
+    background-color: #18121E;
+    height: 66px;
+}
+
+.redactor {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.footer-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+}
+
+.political {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+.subscribe-section-container {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 1180px;
+    height: 196px;
+    background-color: #FDFDFD;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 960px;
+    box-shadow: 0 4px 20px rgba(24, 18, 30, 0.12);
+}
+
+.subscribe-label {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 20px;
+}
+
+.subscribe-title {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 20px;
+}
+
+.subscribe-form {
+    grid-column: 2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.e-title {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 20px;
+}
+
+.subscribe-email {
+    grid-column: 1;
+    grid-row: 2;
+    width: 280px;
+    padding: 12px;
+}
+
+.subscribe-button {
+    grid-column: 2;
+    grid-row: 2;
+    width: 240px;
+    height: 44px;
+}
+
+.subscribe-form p {
+    grid-column: 1/3;
+    grid-row: 3;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+.subscribe-label {
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.subscribe-title {
+    color: #18121E;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 10px;
+}
+
+.parent-block {
+    position: relative;
+}
+
+@media (max-width: 1366px) {
+
+}
