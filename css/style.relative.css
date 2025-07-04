@@ -15,6 +15,7 @@ html {
 .index-main {
     background-image: url("../img/fon.png");
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 
@@ -359,12 +360,12 @@ h1 {
 
 .article-card {
     background-color: #FDFDFD;
-    width: 36.25rem;
-    height: 19.5rem;
+    flex: 1 1 calc(50% - 1.5rem);
+    max-width: calc(50% - 1.5rem);
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    padding: 1.0rem;
+    padding: 1rem;
 }
 
 .article-content {
@@ -376,11 +377,10 @@ h1 {
 
 .articles-block {
     margin-top: 3.125rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
-
+    justify-content: center;
 }
 
 .data-link {
@@ -696,3 +696,270 @@ h1 {
 .parent-block {
     position: relative;
 }
+
+.header-mobile {
+    display: none;
+}
+
+.search-mobile-button {
+    display: none;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+.other {
+    margin-top: 20px;
+    width: 220px;
+    height: 52px;
+
+
+}
+
+
+@media (max-width: 375px) {
+    .header {
+        display: none;
+    }
+
+    .logo-img-mobile {
+        width: 84px;
+        height: 44px;
+    }
+
+    .index-main {
+        background-image: url("../img-mobile/fon-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header-mobile {
+        display: block;
+        width: 100%;
+
+    }
+
+    .header-mobile .container-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-mobile {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-top: 250px;
+    }
+
+    h1 br {
+        display: none;
+    }
+
+    .reservation-section {
+        display: none;
+    }
+
+    .search-mobile-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 213px;
+        height: 52px;
+        background-color: #FDFDFD;
+        border-radius: 4px;
+        color: #1A3E3E;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        border: none;
+        margin-top: 30px;
+    }
+
+    .hike-photos2 {
+        display: none;
+    }
+
+    .hike-photos1 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .expedition-details .container {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .program-button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 40px;
+    }
+
+    .offer__image {
+        display: none;
+    }
+
+    .expedition-details {
+        margin-bottom: 0;
+    }
+
+    .benefits__item {
+        align-items: normal;
+    }
+
+    .benefits__item svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .benefits__item p {
+        font-size: 14px;
+    }
+
+    .section-solutions {
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    .offer__text span {
+        font-size: 16px;
+    }
+
+    .offer__text h3 {
+        font-size: 24px;
+    }
+
+    .review-label {
+        font-size: 16px;
+    }
+
+    .popular-destinations {
+        font-size: 24px;
+    }
+
+    .popular-section .container {
+        align-items: flex-start
+    }
+
+    .benefits__item--text h3 {
+        font-size: 18px;
+    }
+
+    .benefits__item--text p {
+        font-size: 14px;
+    }
+
+    .about-hike span {
+        font-size: 16px;
+    }
+
+    .about-hike h2 {
+        font-size: 24px;
+    }
+
+    .about-hike h2 br {
+        display: none;
+    }
+
+    .about-hike p {
+        font-size: 16px;
+    }
+
+    .tour_img {
+        width: 285px;
+        height: 400px;
+    }
+
+    .tour-rating {
+        left: 220px;
+        top: 36.8px;
+    }
+
+    .popular-tour-description {
+        top: 335px;
+        width: 285px;
+        height: 70px;
+        font-size: 18px;
+    }
+
+    .popular-tour-description p {
+        display: none;
+    }
+
+    .popular-tour-name span {
+        font-size: 18px;
+    }
+
+    .popular-tour-name b {
+        font-size: 18px;
+        width: 43px;
+        height: 18px;
+    }
+
+    .hike-photos1__img {
+        width: 350px;
+    }
+
+    .rating-btn {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .swiper {
+        margin-top: 30px;
+    }
+
+
+    .article-image {
+        width: 285px;
+    }
+
+    .card-tittle {
+        font-size: 20px;
+    }
+
+    .card-description {
+        font-size: 14px;
+    }
+
+    .data {
+        font-size: 14px;
+    }
+
+    .link {
+        font-size: 14px;
+    }
+
+
+    .article-image img {
+        width: 280px;
+        height: auto;
+        display: block;
+    }
+
+    .articles-block {
+        display: flex;
+    }
+
+
+}
+
+
+
+
