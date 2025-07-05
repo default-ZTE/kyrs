@@ -1236,4 +1236,497 @@ h1 {
 }
 
 
+@media (max-width: 300px) {
+    .header {
+        display: none;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .logo-img-mobile {
+        width: 84px;
+        height: 44px;
+    }
+
+    .index-main {
+        background-image: url("../img-mobile/fon-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header-mobile {
+        display: block;
+        width: 100%;
+
+    }
+
+    .header-mobile .container-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-mobile {
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-top: 250px;
+    }
+
+    h1 br {
+        display: none;
+    }
+
+    .reservation-section {
+        display: none;
+    }
+
+    .search-mobile-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 213px;
+        height: 52px;
+        background-color: #FDFDFD;
+        border-radius: 4px;
+        color: #1A3E3E;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        border: none;
+        margin-top: 30px;
+    }
+
+    .hike-photos2 {
+        display: none;
+    }
+
+    .hike-photos1 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .expedition-details .container {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .program-button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 40px;
+    }
+
+    .offer__image {
+        display: none;
+    }
+
+    .expedition-details {
+        margin-bottom: 0;
+    }
+
+    .benefits__item {
+        align-items: normal;
+    }
+
+    .benefits__item svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .benefits__item p {
+        font-size: 14px;
+    }
+
+    .section-solutions {
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    .offer__text span {
+        font-size: 16px;
+    }
+
+    .offer__text h3 {
+        font-size: 24px;
+    }
+
+    .review-label {
+        font-size: 16px;
+    }
+
+    .popular-destinations {
+        font-size: 24px;
+    }
+
+    .popular-section .container {
+        align-items: flex-start
+    }
+
+    .benefits__item--text h3 {
+        font-size: 18px;
+    }
+
+    .benefits__item--text p {
+        font-size: 14px;
+    }
+
+    .about-hike span {
+        font-size: 16px;
+    }
+
+    .about-hike h2 {
+        font-size: 24px;
+    }
+
+    .about-hike h2 br {
+        display: none;
+    }
+
+    .about-hike p {
+        font-size: 16px;
+    }
+
+    .tour_img {
+        width: 285px;
+        height: 400px;
+    }
+
+    .tour-rating {
+        left: 220px;
+        top: 36.8px;
+    }
+
+    .popular-tour-description {
+        top: 335px;
+        width: 285px;
+        height: 70px;
+        font-size: 18px;
+    }
+
+    .popular-tour-description p {
+        display: none;
+    }
+
+    .popular-tour-name span {
+        font-size: 18px;
+    }
+
+    .popular-tour-name b {
+        font-size: 18px;
+        width: 43px;
+        height: 18px;
+    }
+
+    .hike-photos1__img {
+        width: 350px;
+    }
+
+    .rating-btn {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .swiper {
+        margin-top: 30px;
+    }
+
+
+    .article-image {
+        width: 285px;
+    }
+
+    .card-tittle {
+        font-size: 20px;
+    }
+
+    .card-description {
+        font-size: 14px;
+    }
+
+    .data {
+        font-size: 14px;
+    }
+
+    .link {
+        font-size: 14px;
+    }
+
+    .blog-section {
+        padding: 20px 0;
+    }
+
+    .blog-title {
+        font-size: 24px;
+    }
+
+    .article-card {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .article-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .article-content {
+        padding: 15px 0;
+    }
+
+    .card-tittle {
+        font-size: 18px;
+    }
+
+    .card-description {
+        font-size: 14px;
+    }
+
+    .articles-block-mobile {
+        display: flex;
+        gap: 10px;
+    }
+
+    .article-image-mobile img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .swiper-slide {
+        width: 285px;
+        background-color: #FDFDFD;
+    }
+
+    .card-tittle-mobile {
+        color: #18121E;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    .card-description-mobile {
+        color: #18121E;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .article-content-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .data-link-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .data-mobile {
+        color: #F2BE22;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .link-mobile {
+        color: #1A3E3E;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .article-card-mobile {
+        display: block;
+    }
+
+    .articles-block {
+        display: none;
+    }
+
+    .blog-section .container {
+        align-items: flex-start;
+    }
+
+    .impressions-label {
+        font-size: 16px;
+    }
+
+    .blog-title {
+        font-size: 24px;
+    }
+
+    .other {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .subscribe-section-container {
+        display: none;
+    }
+
+    .photo-gallery-mobile {
+        display: flex;
+        gap: 20px;
+    }
+
+    .photo-report-img-mobile {
+        margin: 10px;
+    }
+
+    .photo-gallery {
+        display: none;
+    }
+
+    .photo-report .swiper {
+        display: block;
+    }
+
+    .photo-report-label {
+        font-size: 16px;
+    }
+
+    .photo-report-title {
+        font-size: 24px;
+    }
+
+    .photo-report .container {
+        align-items: flex-start
+    }
+
+    .pinterest-btn {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .subscribe-section-container-mobile {
+        display: block;
+        margin-bottom: 30px;
+        box-shadow: 0 0.25rem 1.25rem rgba(24, 18, 30, 0.12);
+        background-color: #FDFDFD;
+    }
+
+    .subscribe-section-container-mobile .container {
+        width: 358px;
+        margin: 0 auto;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .photo-report {
+        margin-bottom: 40px;
+        padding-bottom: 0;
+    }
+
+    .subscribe-label-mobile {
+        font-size: 16px;
+        color: #F2BE22;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .subscribe-title-mobile {
+        margin-top: 7px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 120%;
+        color: #18121E;
+    }
+
+    .e-title {
+        font-size: 16px;
+    }
+
+    .subscribe-email-mobile {
+        margin-top: 7px;
+    }
+
+    .subscribe-email-mobile {
+        width: 310px;
+        height: 44px;
+        border: none;
+        border-radius: 4px;
+        background-color: #F3F5F4;
+        padding: 7px;
+    }
+
+    .subscribe-button {
+        margin-top: 30px;
+        width: 240px;
+        height: 44px;
+    }
+
+    .subscribe-section-container-mobile p {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #18121E;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-paragraph {
+        width: 358px;
+    }
+
+    .container {
+        width: 358px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    .footer-container .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .hike-photos1 {
+        display: none;
+    }
+
+    .hike-photos1 {
+        display: none;
+    }
+
+    .hike-photos1-mobile {
+        width: 350px;
+    }
+
+    .hike-photos1__img-mobile {
+        width: 300px;
+    }
+}
+
+.hike-photos1-mobile {
+    display: none;
+}
+
+
 
