@@ -429,6 +429,7 @@ h1 {
     font-weight: 800;
     line-height: 120%;
     padding-top: 0.625rem;
+
 }
 
 .card-tittle {
@@ -709,6 +710,7 @@ h1 {
     width: 100%;
 }
 
+
 .swiper-slide {
     width: auto !important;
     height: auto !important;
@@ -725,10 +727,37 @@ h1 {
 
 }
 
+.article-card-mobile {
+    display: none;
+}
+
+.photo-report .swiper {
+    display: none;
+}
+
+.subscribe-section-container-mobile {
+    display: none;
+}
+
+.article-paragraph br {
+    display: none;
+}
 
 @media (max-width: 375px) {
     .header {
         display: none;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
     }
 
     .logo-img-mobile {
@@ -946,18 +975,260 @@ h1 {
         font-size: 14px;
     }
 
+    .blog-section {
+        padding: 20px 0;
+    }
+
+    .blog-title {
+        font-size: 24px;
+    }
+
+    .article-card {
+        flex-direction: column;
+        padding: 15px;
+    }
 
     .article-image img {
-        width: 280px;
+        width: 100%;
         height: auto;
+    }
+
+    .article-content {
+        padding: 15px 0;
+    }
+
+    .card-tittle {
+        font-size: 18px;
+    }
+
+    .card-description {
+        font-size: 14px;
+    }
+
+    .articles-block-mobile {
+        display: flex;
+        gap: 10px;
+    }
+
+    .article-image-mobile img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .swiper-slide {
+        width: 285px;
+        background-color: #FDFDFD;
+    }
+
+    .card-tittle-mobile {
+        color: #18121E;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    .card-description-mobile {
+        color: #18121E;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .article-content-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .data-link-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .data-mobile {
+        color: #F2BE22;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .link-mobile {
+        color: #1A3E3E;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .article-card-mobile {
         display: block;
     }
 
     .articles-block {
+        display: none;
+    }
+
+    .blog-section .container {
+        align-items: flex-start;
+    }
+
+    .impressions-label {
+        font-size: 16px;
+    }
+
+    .blog-title {
+        font-size: 24px;
+    }
+
+    .other {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .subscribe-section-container {
+        display: none;
+    }
+
+    .photo-gallery-mobile {
         display: flex;
+        gap: 20px;
+    }
+
+    .photo-report-img-mobile {
+        margin: 10px;
+    }
+
+    .photo-gallery {
+        display: none;
+    }
+
+    .photo-report .swiper {
+        display: block;
+    }
+
+    .photo-report-label {
+        font-size: 16px;
+    }
+
+    .photo-report-title {
+        font-size: 24px;
+    }
+
+    .photo-report .container {
+        align-items: flex-start
+    }
+
+    .pinterest-btn {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .subscribe-section-container-mobile {
+        display: block;
+        margin-bottom: 30px;
+        box-shadow: 0 0.25rem 1.25rem rgba(24, 18, 30, 0.12);
+        background-color: #FDFDFD;
+    }
+
+    .subscribe-section-container-mobile .container {
+        width: 358px;
+        margin: 0 auto;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .photo-report {
+        margin-bottom: 40px;
+        padding-bottom: 0;
+    }
+
+    .subscribe-label-mobile {
+        font-size: 16px;
+        color: #F2BE22;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .subscribe-title-mobile {
+        margin-top: 7px;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 120%;
+        color: #18121E;
+    }
+
+    .e-title {
+        font-size: 16px;
+    }
+
+    .subscribe-email-mobile {
+        margin-top: 7px;
+    }
+
+    .subscribe-email-mobile {
+        width: 310px;
+        height: 44px;
+        border: none;
+        border-radius: 4px;
+        background-color: #F3F5F4;
+        padding: 7px;
+    }
+
+    .subscribe-button {
+        margin-top: 30px;
+        width: 240px;
+        height: 44px;
+    }
+
+    .subscribe-section-container-mobile p {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #18121E;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-paragraph {
+        width: 358px;
+    }
+
+    .container {
+        width: 358px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 
+    .footer-container .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .hike-photos1 {
+        display: none;
+    }
+
+    .hike-photos1 {
+        display: none;
+    }
+
+    .hike-photos1-mobile {
+        width: 350px;
+    }
+
+    .hike-photos1__img-mobile {
+        width: 300px;
+    }
 }
 
 
