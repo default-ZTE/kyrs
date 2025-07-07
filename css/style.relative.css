@@ -801,6 +801,7 @@ h1 {
         display: none;
     }
 
+
     .search-mobile-button {
         display: flex;
         justify-content: center;
@@ -822,9 +823,7 @@ h1 {
     }
 
     .hike-photos1 {
-        position: relative;
-        top: 0;
-        left: 0;
+        display: none;
     }
 
     .expedition-details .container {
@@ -942,6 +941,7 @@ h1 {
 
     .hike-photos1__img {
         width: 350px;
+        display: none;
     }
 
     .rating-btn {
@@ -1214,22 +1214,10 @@ h1 {
         align-items: center;
     }
 
-    .hike-photos1 {
-        display: none;
-    }
 
     .hike-photos1 {
         display: none;
     }
-
-    .hike-photos1-mobile {
-        width: 350px;
-    }
-
-    .hike-photos1__img-mobile {
-        width: 300px;
-    }
-
 
 }
 
@@ -1241,6 +1229,10 @@ h1 {
 @media (max-width: 450px) {
     .header {
         display: none;
+    }
+
+    .swiper-wrapper {
+        width: 375px;
     }
 
     .section {
@@ -1261,6 +1253,7 @@ h1 {
     }
 
     .index-main {
+        width: 375px;
         background-image: url("../img-mobile/fon-mobile.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -1269,7 +1262,6 @@ h1 {
     .header-mobile {
         display: block;
         width: 100%;
-
     }
 
     .header-mobile .container-mobile {
@@ -1318,6 +1310,7 @@ h1 {
 
     .hike-photos1 {
         position: relative;
+        display: none;
         top: 0;
         left: 0;
     }
@@ -1437,7 +1430,9 @@ h1 {
 
     .hike-photos1__img {
         width: 350px;
+        display: none;
     }
+
 
     .rating-btn {
         margin-left: 50%;
@@ -1447,6 +1442,7 @@ h1 {
 
     .swiper {
         margin-top: 30px;
+        width: 375px;
     }
 
 
